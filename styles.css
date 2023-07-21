@@ -1,6 +1,12 @@
 body {
-    color: lightgreen;
+
+    background-color: lightgreen;
 }
-form {
+.searchForm {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-self: center;
+    flex-basis: auto;
     color: darkorchid;
 }
